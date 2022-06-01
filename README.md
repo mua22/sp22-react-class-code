@@ -1,7 +1,10 @@
 # sp22-react-class-code
 
 [Subscribe My Youtube Channel for complete React App Tutorials](https://www.youtube.com/channel/UC2wF8Lw2OA6CIPcJ5pCOwJg/?sub_confirmation=1)
- 
+
+Visit My Site [usmanlive.com](https://usmanlive.com/) for more exciting stuff
+
+## Code Installation 
 Go to your respective folder in command prompt and run following commands 
 
 //install dependices
@@ -10,7 +13,7 @@ Go to your respective folder in command prompt and run following commands
 //start your project
 >npm start
 
-## React Setup at your system
+### React Setup at your system
 
 >npm init react-app myfirstreact
 
