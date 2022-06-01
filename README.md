@@ -1,6 +1,6 @@
 # sp22-react-class-code
 
-[Subscribe My Youtube Channel for complete React App Tutorials](https://www.youtube.com/channel/UC2wF8Lw2OA6CIPcJ5pCOwJg/?sub_confirmation=1)
+Subscribe My [Youtube Channel](https://www.youtube.com/channel/UC2wF8Lw2OA6CIPcJ5pCOwJg/?sub_confirmation=1)  for complete React App Tutorials
 
 Visit My Site [usmanlive.com](https://usmanlive.com/) for more exciting stuff
 
