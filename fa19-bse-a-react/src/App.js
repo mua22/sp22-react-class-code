@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import MyNavBar from "./components/MyNavBar";
+import Product from "./components/Product";
 
 function App() {
+  const styles = { color: "green", borderRadius: "5px" };
+
+  const handleClick = () => {
+    console.log("You clicked Me");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <MyNavBar />
+
+      <button onClick={handleClick}>Click Me</button>
+
+      <Product title="Lenovo" price="500" />
+      <Product title="HP" price="900" />
+      <Product title="DELL" />
+
+      <h1 style={styles}>Hello From App.js</h1>
     </div>
   );
 }
