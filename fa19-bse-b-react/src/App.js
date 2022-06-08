@@ -1,15 +1,19 @@
 import Cake from "./components/Cake";
 import ClickCounter from "./components/ClickCounter";
 import NavBar from "./components/NavBar";
+import Products from "./components/Products";
+import SortableStudents from "./components/SortableStudents";
 import Student from "./components/Student";
 import "./index.css";
 function App() {
   const showParagraph = true;
   return (
     <div>
-      <ClickCounter />
-      <Cake type="Fruit Cake" price="50" color="black" />
-      <Cake type="Choclate Cake" price="150" color="yellow" />
+      <Products />
+      {/* <SortableStudents /> */}
+      {/* <ClickCounter /> */}
+      {/* <Cake type="Fruit Cake" price="50" color="black" /> */}
+      {/* <Cake type="Choclate Cake" price="150" color="yellow" /> */}
 
       {/* <NavBar /> */}
       {/* <Student name="Nabeel" cgpa="3" /> */}

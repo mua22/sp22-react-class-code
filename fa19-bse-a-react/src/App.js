@@ -1,5 +1,8 @@
+import CounterExample from "./components/CounterExample";
 import MyNavBar from "./components/MyNavBar";
 import Product from "./components/Product";
+import Products from "./components/Products";
+import SortableStudents from "./components/SortableStudents";
 
 function App() {
   const styles = { color: "green", borderRadius: "5px" };
@@ -10,15 +13,17 @@ function App() {
 
   return (
     <div className="container">
-      <MyNavBar />
+      <Products />
+      {/* <SortableStudents /> */}
+      {/* <MyNavBar /> */}
+      {/* <CounterExample /> */}
+      {/* <button onClick={handleClick}>Click Me</button> */}
 
-      <button onClick={handleClick}>Click Me</button>
+      {/* <Product title="Lenovo" price="500" /> */}
+      {/* <Product title="HP" price="900" /> */}
+      {/* <Product title="DELL" /> */}
 
-      <Product title="Lenovo" price="500" />
-      <Product title="HP" price="900" />
-      <Product title="DELL" />
-
-      <h1 style={styles}>Hello From App.js</h1>
+      {/* <h1 style={styles}>Hello From App.js</h1> */}
     </div>
   );
 }

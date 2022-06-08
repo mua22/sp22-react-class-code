@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $("#myBtn").on("click",function(){
+            let students = [];
+            $("ul li").each(function(){
+                students.push($(this).html());
+            })
+            console.log(students);
+            students.sort();
+            $("ul").empty();
+            students.forEach(function(s){
+                $("ul").append(`<li>${s}</li>`)
+            })
+           }); 
+            })
+           
+        </script>
+    </head>
+    <body>
+        <button id="myBtn">Sort</button>
+        <ul>
+            <li>Zaid</li>
+            <li>Lareb</li>
+            <li>Adil</li>
+        </ul>
+    </body>
+</html>
